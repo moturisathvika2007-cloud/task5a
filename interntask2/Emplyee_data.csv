@@ -1,0 +1,72 @@
+Employee_ID,Name,Age,Department,Salary,Experience_Years,Performance_Score,City
+E101,Rahul,25,Sales,35000,2,78,Hyderabad
+E102,Sneha,29,HR,42000,4,85,Chennai
+E103,Arjun,31,IT,55000,6,90,Bangalore
+E104,Priya,27,Finance,48000,3,88,Mumbai
+E105,Kiran,35,IT,62000,8,92,Pune
+E106,Meena,24,Sales,34000,1,70,Hyderabad
+E107,Vikas,30,HR,45000,5,86,Delhi
+E108,Anjali,28,Finance,50000,4,89,Chennai
+E109,Ramesh,32,IT,58000,7,91,Bangalore
+E110,Kavya,26,Sales,36000,2,75,Pune
+=========== EMPLOYEE DATA ===========
+
+  Employee_ID    Name  Age Department  Salary  Experience_Years  Performance_Score       City
+0        E101   Rahul   25      Sales   35000                 2                 78  Hyderabad
+1        E102   Sneha   29         HR   42000                 4                 85    Chennai
+2        E103   Arjun   31         IT   55000                 6                 90  Bangalore
+3        E104   Priya   27    Finance   48000                 3                 88     Mumbai
+4        E105   Kiran   35         IT   62000                 8                 92       Pune
+5        E106   Meena   24      Sales   34000                 1                 70  Hyderabad
+6        E107   Vikas   30         HR   45000                 5                 86      Delhi
+7        E108  Anjali   28    Finance   50000                 4                 89    Chennai
+8        E109  Ramesh   32         IT   58000                 7                 91  Bangalore
+9        E110   Kavya   26      Sales   36000                 2                 75       Pune
+
+=========== DATA INFO ===========
+
+<class 'pandas.DataFrame'>
+RangeIndex: 10 entries, 0 to 9
+Data columns (total 8 columns):
+ #   Column             Non-Null Count  Dtype
+---  ------             --------------  -----
+ 0   Employee_ID        10 non-null     str  
+ 1   Name               10 non-null     str  
+ 2   Age                10 non-null     int64
+ 3   Department         10 non-null     str  
+ 4   Salary             10 non-null     int64
+ 5   Experience_Years   10 non-null     int64
+ 6   Performance_Score  10 non-null     int64
+ 7   City               10 non-null     str  
+dtypes: int64(4), str(4)
+memory usage: 772.0 bytes
+None
+
+=========== STATISTICS ===========
+
+            Age        Salary  Experience_Years  Performance_Score
+count  10.00000     10.000000         10.000000          10.000000
+mean   28.70000  46500.000000          4.200000          84.400000
+std     3.40098   9891.073417          2.299758           7.501111
+min    24.00000  34000.000000          1.000000          70.000000
+25%    26.25000  37500.000000          2.250000          79.750000
+50%    28.50000  46500.000000          4.000000          87.000000
+75%    30.75000  53750.000000          5.750000          89.750000
+max    35.00000  62000.000000          8.000000          92.000000
+
+=========== MISSING VALUES ===========
+
+Employee_ID          0
+Name                 0
+Age                  0
+Department           0
+Salary               0
+Experience_Years     0
+Performance_Score    0
+City                 0
+dtype: int64
+
+=========== DUPLICATE RECORDS ===========
+
+0
+

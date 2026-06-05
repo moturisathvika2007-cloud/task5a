@@ -1,0 +1,11 @@
+Employee_ID,Name,Age,Department,Salary,Experience_Years,Performance_Score,City
+E101,Rahul,25,Sales,35000,2,78,Hyderabad
+E102,Sneha,29,HR,42000,4,85,Chennai
+E103,Arjun,31,IT,55000,6,90,Bangalore
+E104,Priya,27,Finance,48000,3,88,Mumbai
+E105,Kiran,35,IT,62000,8,92,Pune
+E106,Meena,24,Sales,34000,1,70,Hyderabad
+E107,Vikas,30,HR,45000,5,86,Delhi
+E108,Anjali,28,Finance,50000,4,89,Chennai
+E109,Ramesh,32,IT,58000,7,91,Bangalore
+E110,Kavya,26,Sales,36000,2,75,Pune
